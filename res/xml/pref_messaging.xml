@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <Preference 
+        
+        android:key="server_url_pref"
+        android:title="Chat Server"
+        android:defaultValue="not set"
+        android:selectable="false"
+        />
+    
+    <Preference 
+        
+        android:key="sender_id_pref"
+        android:title="GCM ID"
+        android:defaultValue="not set"
+        android:selectable="false"
+        
+        
+        />
+     
+  
+    
+    <!--  
+    <EditTextPreference
+        android:inputType="textPassword"
+        android:key="server_url_pref"
+        android:title="SERVER" />
+     
+    <EditTextPreference
+        android:inputType="textPassword"
+        android:key="sender_id_pref"
+        android:title="GCM ID" />  -->
+     
+</PreferenceScreen>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_add"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/action_add"/>    
+        
+     <item
+        android:id="@+id/action_share"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="share"/>    
+        
+    <item
+        android:id="@+id/action_create"
+        android:showAsAction="collapseActionView"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Create group"/>    
+ 
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/action_settings"/>
+</menu>
+             
